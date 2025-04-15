@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="24c3f8b1721545279d4154eee82784a7" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="Belikov_IAModel.Cleaning_Room" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.Guests" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.Orders" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.payDay" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.Reservation" Width="1.5" PointX="6" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.room_acces" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.Rooms" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.C_Services" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Belikov_IAModel.Users" Width="1.5" PointX="3.75" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Cleaning_Room_Rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Cleaning_Room_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_payDay_Guests" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Reservation_Guests" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_room_acces_Guests" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Orders_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Orders__Services" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_payDay_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_Reservation_Rooms" ManuallyRouted="false" />
+        <AssociationConnector Association="Belikov_IAModel.FK_room_acces_Rooms" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
