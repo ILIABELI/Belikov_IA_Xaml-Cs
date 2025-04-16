@@ -45,6 +45,28 @@
                 <DataGridTextColumn Header="Заблок" Binding="{Binding IsLocked}" Width="Auto"/>
             </DataGrid.Columns>
         </DataGrid>
+ <!-- <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top" Width="412">
+
+         <Button Content="Добавить пользователя"
+             Width="138"
+             Margin="5.0"
+             FontSize="12"
+             Height="30"
+     />
+     <Button Content="Разблокировать"
+         Width="120"
+         Margin="5.0"
+         FontSize="12"
+         Height="30"
+     />
+
+     <Button Content="Сохранить изменения"
+          Width="124"
+          Margin="5.0"
+          FontSize="12"
+         Height="30"
+     />
+ </StackPanel> -->
         
 
         </Grid>
